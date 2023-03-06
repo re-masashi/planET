@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import {Sidebar} from './Sidebar'
+import {Editor} from './Editor'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/starred',
     element: <div className="text-white">starred</div>
+  },
+  {
+    path: '/edit/:id',
+    element: <Editor/>
   },
 ]);
 

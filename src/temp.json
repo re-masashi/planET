@@ -1,0 +1,74 @@
+{
+  "counters": {
+    "u_row": 8,
+    "u_column": 13,
+    "u_content_menu": 1,
+    "u_content_text": 24,
+    "u_content_image": 8,
+    "u_content_button": 2,
+    "u_content_divider": 1,
+    "u_content_heading": 3
+  },
+  "body": {
+    "rows": [],
+    "values": {
+      "popupPosition": "center",
+      "popupWidth": "600px",
+      "popupHeight": "auto",
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentVerticalAlign": "center",
+      "contentWidth": 700,
+      "fontFamily": {
+        "label": "Helvetica",
+        "value": "helvetica,sans-serif",
+        "url": "",
+        "weights": null,
+        "defaultFont": true
+      },
+      "textColor": "#ffffff",
+      "popupBackgroundColor": "#FFFFFF",
+      "popupBackgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "cover",
+        "position": "center"
+      },
+      "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+      "popupCloseButton_position": "top-right",
+      "popupCloseButton_backgroundColor": "#DDDDDD",
+      "popupCloseButton_iconColor": "#000000",
+      "popupCloseButton_borderRadius": "0px",
+      "popupCloseButton_margin": "0px",
+      "popupCloseButton_action": {
+        "name": "close_popup",
+        "attrs": {
+          "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+        }
+      },
+      "backgroundColor": "#000000",
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "custom",
+        "position": "center"
+      },
+      "preheaderText": "",
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0071e3",
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true,
+        "inherit": false
+      },
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      }
+    }
+  },
+  "schemaVersion": 12
+}

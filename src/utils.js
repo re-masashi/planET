@@ -5,7 +5,7 @@ const getNotes = () => {
 		arr.push({
 			name: "Sample",
 			id: "id1",
-			img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
+			img: "https://placekitten.com/g/800/800",
 			intro: `Simple simon met a pieman.
 				Wha? What? What? What? Yeah!
 				Wha? What? What? What? Yeah!

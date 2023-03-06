@@ -1,4 +1,11 @@
-import { RxHeart, RxEnvelopeClosed, RxPerson, RxGear } from "react-icons/rx";
+import { 
+  RxHeart, 
+  RxEnvelopeClosed, 
+  RxPerson, 
+  RxGear, 
+  RxPlus,
+  RxMagnifyingGlass,
+} from "react-icons/rx";
 
 function Sidebar(){
   return (
@@ -10,7 +17,7 @@ function Sidebar(){
         className="relative inline-block overflow-hidden rounded-full align-bottom"
         href="#">
         <img
-          src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(29).webp"
+          src="https://placekitten.com/g/200/200"
           alt="Avatar"
           className="h-auto max-w-[60px] rounded-full" />
       </a>
@@ -19,14 +26,14 @@ function Sidebar(){
     <hr className="my-4 border-gray-700" />
     <ul
       className="relative m-0 list-none px-[0.2rem]"
-      data-te-sidenav-menu-ref>
+      data-te-sidenav-menu-ref>      
       <li className="relative my-4">
         <a
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
             className="mx-auto motion-reduce:transition-none [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-gray-300 [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:fill-white group-focus:[&>svg]:fill-white group-active:[&>svg]:fill-white group-data-[te-sidenav-state-focus]:[&>svg]:fill-white">
-            <RxHeart/>
+            <RxPlus/>
           </span>
         </a>
       </li>
@@ -36,7 +43,17 @@ function Sidebar(){
           data-te-sidenav-link-ref>
           <span
             className="mx-auto motion-reduce:transition-none [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-gray-300 [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:fill-white group-focus:[&>svg]:fill-white group-active:[&>svg]:fill-white group-data-[te-sidenav-state-focus]:[&>svg]:fill-white">
-            <RxEnvelopeClosed/>
+            <RxMagnifyingGlass/>
+          </span>
+        </a>
+      </li>
+      <li className="relative my-4">
+        <a
+          className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
+          data-te-sidenav-link-ref>
+          <span
+            className="mx-auto motion-reduce:transition-none [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-gray-300 [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:fill-white group-focus:[&>svg]:fill-white group-active:[&>svg]:fill-white group-data-[te-sidenav-state-focus]:[&>svg]:fill-white">
+            <RxHeart/>
           </span>
         </a>
       </li>
@@ -60,6 +77,7 @@ function Sidebar(){
           </span>
         </a>
       </li>
+
     </ul>
   </nav>
 )
