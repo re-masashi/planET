@@ -15,7 +15,7 @@ function Sidebar(){
     <div className="mt-6 text-center">
       <a
         className="relative inline-block overflow-hidden rounded-full align-bottom"
-        href="#">
+        href="/profile">
         <img
           src="https://placekitten.com/g/200/200"
           alt="Avatar"
@@ -29,6 +29,7 @@ function Sidebar(){
       data-te-sidenav-menu-ref>      
       <li className="relative my-4">
         <a
+          href="/create"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
@@ -39,6 +40,7 @@ function Sidebar(){
       </li>
       <li className="relative my-4">
         <a
+          href="/search"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
@@ -49,6 +51,7 @@ function Sidebar(){
       </li>
       <li className="relative my-4">
         <a
+          href="/liked"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
@@ -59,6 +62,7 @@ function Sidebar(){
       </li>
       <li className="relative my-4">
         <a
+          href="/profile"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
@@ -69,6 +73,7 @@ function Sidebar(){
       </li>
       <li className="relative my-4">
         <a
+          href="/settings"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span

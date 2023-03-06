@@ -1,6 +1,5 @@
 import { RxShare1, RxPencil1 } from "react-icons/rx";
 
-
 const NoteOverview = (props) => {
 	/*
 		props => name, img, content, intro, id

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import {Sidebar} from './Sidebar'
+import {NotFound} from './NotFound'
 import {Editor} from './Editor'
 import {
   createBrowserRouter,
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/edit/:id',
     element: <Editor/>
+  },
+  {
+    path: '*',
+    element: <NotFound/>,
   },
 ]);
 
