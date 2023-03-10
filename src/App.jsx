@@ -8,8 +8,8 @@ function App() {
       <section className=" ml-[93px]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
             <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white">Your Plans</h2>
-                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-gray-400">Create, update, delete, read or share your plans</p>
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">Your Plans</h2>
+                <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-gray-200">Create, update, delete, read or share your plans</p>
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                { getNotes().map((item, index, array)=>{
@@ -17,10 +17,9 @@ function App() {
                   <NoteOverview 
                     name={item.name}
                     id={item.id}
-                    intro={item.intro}
-                    img={item.img}
+                    intro={item.description}
+                    img={item.img ?? "https://placekitten.com/g/300/300"}
                     content={item.content}
-                    key={index}
                   />
                   )
                 })

@@ -11,7 +11,7 @@ const NoteOverview = (props) => {
 	    </a>
 	    <div className="p-5">
 	        <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
-	            <a href={"/plans/edit/"+props.id}>{props.name}</a>
+	            <a href={"/plans/"+props.id}>{props.name}</a>
 	        </h3>
 	        <br/>
 	        <span className="text-gray-500 text-gray-400">{props.intro}</span>

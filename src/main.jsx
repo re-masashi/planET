@@ -4,6 +4,8 @@ import App from './App'
 import {Sidebar} from './Sidebar'
 import {NotFound} from './NotFound'
 import {Editor} from './Editor'
+import {Create} from './Create'
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,12 +22,16 @@ const router = createBrowserRouter([
     element: <div className="text-white">starred</div>
   },
   {
-    path: '/edit/:id',
+    path: '/plans/edit/:id',
     element: <Editor/>
   },
   {
     path: '*',
     element: <NotFound/>,
+  },
+  {
+    path: '/plans/create',
+    element: <Create/>,
   },
 ]);
 
