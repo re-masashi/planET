@@ -12,14 +12,15 @@ function App() {
                 <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-gray-200">Create, update, delete, read or share your plans</p>
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-               { getNotes().map((item, index, array)=>{
+              { 
+                getNotes().map((item, index, array)=>{
                   return (
                   <NoteOverview 
                     name={item.name}
                     id={item.id}
                     intro={item.description}
                     img={item.img ?? "https://placekitten.com/g/300/300"}
-                    content={item.content}
+                    content={item.html}
                   />
                   )
                 })

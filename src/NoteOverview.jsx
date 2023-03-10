@@ -15,7 +15,7 @@ const NoteOverview = (props) => {
 	        </h3>
 	        <br/>
 	        <span className="text-gray-500 text-gray-400">{props.intro}</span>
-	        <p className="mt-3 mb-4 font-light text-gray-500 text-gray-400">{props.content}</p>
+	        <p className="mt-3 mb-4 font-light text-gray-500 text-gray-400"></p>
 	        <ul className="flex space-x-4 sm:mt-0">
 	            <li>
 	                <button className="text-gray-500 hover:text-gray-900 hover:text-white">
