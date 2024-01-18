@@ -36,7 +36,7 @@ function Sidebar(){
       data-te-sidenav-menu-ref>      
       <li className="relative my-4">
         <a
-          href="/create"
+          href="/plans/create"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
@@ -52,7 +52,7 @@ function Sidebar(){
           data-te-sidenav-link-ref>
           <span
             className="mx-auto motion-reduce:transition-none [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-gray-300 [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:fill-white group-focus:[&>svg]:fill-white group-active:[&>svg]:fill-white group-data-[te-sidenav-state-focus]:[&>svg]:fill-white">
-            <RxHome/>
+            <RxGear/>
           </span>
         </a>
       </li>
@@ -80,18 +80,7 @@ function Sidebar(){
       </li>
       <li className="relative my-4">
         <a
-          href="/settings"
-          className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
-          data-te-sidenav-link-ref>
-          <span
-            className="mx-auto motion-reduce:transition-none [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-gray-300 [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:fill-white group-focus:[&>svg]:fill-white group-active:[&>svg]:fill-white group-data-[te-sidenav-state-focus]:[&>svg]:fill-white">
-            <RxGear/>
-          </span>
-        </a>
-      </li>
-      <li className="relative my-4">
-        <a
-          href="/settings"
+          href="/"
           className="group flex h-12 cursor-pointer items-center truncate rounded-[5px] py-4 px-6 text-[0.875rem] text-gray-300 outline-none transition duration-300 ease-linear hover:bg-white/10 hover:outline-none focus:bg-white/10 focus:outline-none active:bg-white/10 active:outline-none data-[te-sidenav-state-focus]:outline-none motion-reduce:transition-none"
           data-te-sidenav-link-ref>
           <span
